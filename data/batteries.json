@@ -1,0 +1,222 @@
+[
+  {
+    "brand": "Anker",
+    "model": "PowerCore 10000",
+    "capacity_mah": 10000,
+    "voltage": 3.7,
+    "capacity_wh": 37,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "대부분 항공사/국가에서 허용. 한국: 좌석 위 선반 보관 금지(2025.3~)",
+    "category": "일반"
+  },
+  {
+    "brand": "Anker",
+    "model": "PowerCore 20100",
+    "capacity_mah": 20100,
+    "voltage": 3.7,
+    "capacity_wh": 74.37,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "100Wh 이하로 기내반입 가능. 개별 포장 필수",
+    "category": "일반"
+  },
+  {
+    "brand": "Xiaomi",
+    "model": "Mi Power Bank 3 20000mAh",
+    "capacity_mah": 20000,
+    "voltage": 3.7,
+    "capacity_wh": 74,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "100Wh 이하. 일부 항공사에서 브랜드 확인 요구할 수 있음",
+    "category": "일반"
+  },
+  {
+    "brand": "RAVPower",
+    "model": "PD Pioneer 26800mAh",
+    "capacity_mah": 26800,
+    "voltage": 3.7,
+    "capacity_wh": 99.16,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "100Wh 이하 마지노선. 정확한 Wh 표기 필수",
+    "category": "일반"
+  },
+  {
+    "brand": "Mophie",
+    "model": "Powerstation XXL",
+    "capacity_mah": 20000,
+    "voltage": 3.7,
+    "capacity_wh": 74,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "Apple Store 판매 제품. 대부분 항공사 허용",
+    "category": "일반"
+  },
+  {
+    "brand": "Samsung",
+    "model": "Battery Pack 10000mAh",
+    "capacity_mah": 10000,
+    "voltage": 3.7,
+    "capacity_wh": 37,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "삼성 정품. 무선충전 기능 포함",
+    "category": "일반"
+  },
+  {
+    "brand": "Aukey",
+    "model": "PB-Y32 30000mAh",
+    "capacity_mah": 30000,
+    "voltage": 3.7,
+    "capacity_wh": 111,
+    "carry_on_status": "conditional",
+    "max_quantity": 2,
+    "notes": "100-160Wh 범위. 항공사 사전 승인 필요. 스티커 부착 의무",
+    "category": "대용량"
+  },
+  {
+    "brand": "ROMOSS",
+    "model": "Sense 8+ 30000mAh",
+    "capacity_mah": 30000,
+    "voltage": 3.7,
+    "capacity_wh": 111,
+    "carry_on_status": "conditional",
+    "max_quantity": 2,
+    "notes": "항공사 승인 필수. 일부 LCC에서 제한 가능",
+    "category": "대용량"
+  },
+  {
+    "brand": "Anker",
+    "model": "PowerCore+ 26800 PD",
+    "capacity_mah": 26800,
+    "voltage": 3.85,
+    "capacity_wh": 103.18,
+    "carry_on_status": "conditional",
+    "max_quantity": 2,
+    "notes": "USB-C PD 지원. 항공사 승인 필요한 범위",
+    "category": "대용량"
+  },
+  {
+    "brand": "Goal Zero",
+    "model": "Sherpa 100AC",
+    "capacity_mah": 25600,
+    "voltage": 3.6,
+    "capacity_wh": 92.16,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "AC 콘센트 지원. 100Wh 이하로 기내반입 가능",
+    "category": "특수"
+  },
+  {
+    "brand": "RAVPower",
+    "model": "45000mAh Portable Charger",
+    "capacity_mah": 45000,
+    "voltage": 3.7,
+    "capacity_wh": 166.5,
+    "carry_on_status": "forbidden",
+    "max_quantity": 0,
+    "notes": "160Wh 초과로 기내반입 불가. 위탁수하물도 금지",
+    "category": "대용량"
+  },
+  {
+    "brand": "EcoFlow",
+    "model": "River 2 Max",
+    "capacity_mah": 50000,
+    "voltage": 3.7,
+    "capacity_wh": 185,
+    "carry_on_status": "forbidden",
+    "max_quantity": 0,
+    "notes": "포터블 파워 스테이션. 160Wh 초과로 항공 운송 불가",
+    "category": "파워스테이션"
+  },
+  {
+    "brand": "Baseus",
+    "model": "Power Bank 65W 20000mAh",
+    "capacity_mah": 20000,
+    "voltage": 3.7,
+    "capacity_wh": 74,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "고속충전 지원. 100Wh 이하로 기내반입 가능",
+    "category": "일반"
+  },
+  {
+    "brand": "UGREEN",
+    "model": "Nexode Power Bank 25000mAh",
+    "capacity_mah": 25000,
+    "voltage": 3.7,
+    "capacity_wh": 92.5,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "100W 고속충전. 100Wh 이하로 문제없음",
+    "category": "일반"
+  },
+  {
+    "brand": "Belkin",
+    "model": "BoostCharge Power Bank 10K",
+    "capacity_mah": 10000,
+    "voltage": 3.7,
+    "capacity_wh": 37,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "Apple 인증 제품. MagSafe 호환",
+    "category": "일반"
+  },
+  {
+    "brand": "Zendure",
+    "model": "SuperMini 10000mAh",
+    "capacity_mah": 10000,
+    "voltage": 3.7,
+    "capacity_wh": 37,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "초소형 디자인. 크레딧카드 크기",
+    "category": "일반"
+  },
+  {
+    "brand": "HyperJuice",
+    "model": "27000mAh Battery Pack",
+    "capacity_mah": 27000,
+    "voltage": 3.7,
+    "capacity_wh": 99.9,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "100Wh 바로 아래 용량. MacBook 충전 가능",
+    "category": "일반"
+  },
+  {
+    "brand": "Jackery",
+    "model": "Explorer 160",
+    "capacity_mah": 42300,
+    "voltage": 3.85,
+    "capacity_wh": 162.85,
+    "carry_on_status": "forbidden",
+    "max_quantity": 0,
+    "notes": "포터블 파워 스테이션. 160Wh 초과로 항공 운송 불가",
+    "category": "파워스테이션"
+  },
+  {
+    "brand": "Nitecore",
+    "model": "NB10000",
+    "capacity_mah": 10000,
+    "voltage": 3.7,
+    "capacity_wh": 37,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "탄소섬유 외관. 초경량 디자인",
+    "category": "일반"
+  },
+  {
+    "brand": "Energizer",
+    "model": "UE20007PQ 20000mAh",
+    "capacity_mah": 20000,
+    "voltage": 3.7,
+    "capacity_wh": 74,
+    "carry_on_status": "allowed",
+    "max_quantity": 5,
+    "notes": "Qi 무선충전 지원. 100Wh 이하",
+    "category": "일반"
+  }
+]

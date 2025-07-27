@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>보조 배터리 기내 반입 가능 품목</title>
+    <meta name="description" content="항공기 기내 보조배터리 반입 규정과 허용 품목을 확인하세요. 2025년 최신 규정 반영">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔋 보조 배터리 기내 반입 가능 품목</h1>
+            <p class="subtitle">2025년 최신 항공 규정 기준</p>
+        </header>
+
+        <section class="regulations-info">
+            <div class="info-card">
+                <h2>📋 기본 규정 (IATA/ICAO)</h2>
+                <div class="regulation-grid">
+                    <div class="regulation-item allowed">
+                        <strong>100Wh 이하</strong>
+                        <span>기내반입 가능 (최대 5개)</span>
+                    </div>
+                    <div class="regulation-item conditional">
+                        <strong>100-160Wh</strong>
+                        <span>항공사 승인 시 2개</span>
+                    </div>
+                    <div class="regulation-item forbidden">
+                        <strong>160Wh 초과</strong>
+                        <span>반입 불가</span>
+                    </div>
+                </div>
+                <p class="notice">⚠️ 모든 리튬 배터리는 위탁수하물 금지, 기내 반입만 가능</p>
+            </div>
+        </section>
+
+        <section class="calculator">
+            <h3>🧮 Wh 계산기</h3>
+            <div class="calc-row">
+                <input type="number" id="capacity" placeholder="용량 (mAh)" min="0">
+                <span>mAh ×</span>
+                <input type="number" id="voltage" placeholder="전압 (V)" min="0" step="0.1" value="3.7">
+                <span>V ÷ 1000 =</span>
+                <span id="result">0</span>
+                <span>Wh</span>
+            </div>
+        </section>
+
+        <section class="search-filter">
+            <div class="search-row">
+                <input type="text" id="searchInput" placeholder="배터리명 또는 브랜드 검색...">
+                <select id="statusFilter">
+                    <option value="">모든 상태</option>
+                    <option value="allowed">반입 가능</option>
+                    <option value="conditional">조건부 가능</option>
+                    <option value="forbidden">반입 불가</option>
+                </select>
+            </div>
+            <div class="filter-row">
+                <label>용량 범위:</label>
+                <input type="number" id="minWh" placeholder="최소 Wh" min="0">
+                <span>~</span>
+                <input type="number" id="maxWh" placeholder="최대 Wh" min="0">
+                <span>Wh</span>
+            </div>
+        </section>
+
+        <section class="battery-table">
+            <div class="table-container">
+                <table id="batteryTable">
+                    <thead>
+                        <tr>
+                            <th>브랜드</th>
+                            <th>모델명</th>
+                            <th>용량 (mAh)</th>
+                            <th>전압 (V)</th>
+                            <th>전력량 (Wh)</th>
+                            <th>반입 가능</th>
+                            <th>수량 제한</th>
+                            <th>주의사항</th>
+                        </tr>
+                    </thead>
+                    <tbody id="batteryTableBody">
+                        <!-- 데이터가 JavaScript로 동적 생성됩니다 -->
+                    </tbody>
+                </table>
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                검색 결과가 없습니다.
+            </div>
+        </section>
+
+        <section class="additional-info">
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>🚨 2025년 주요 변경사항</h3>
+                    <ul>
+                        <li>좌석 위 선반(오버헤드빈) 보관 금지</li>
+                        <li>승객 직접 소지 또는 좌석 앞주머니만 허용</li>
+                        <li>개별 포장 의무화 (지퍼백 1개당 1개)</li>
+                        <li>기내 USB 포트 직접 충전 금지</li>
+                    </ul>
+                </div>
+                <div class="info-card">
+                    <h3>✈️ 항공사별 차이점</h3>
+                    <p>기본 IATA 규정은 동일하지만, 세부 운영은 항공사마다 다를 수 있습니다.</p>
+                    <p><strong>권장사항:</strong> 탑승 전 해당 항공사 홈페이지에서 최신 규정을 확인하세요.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>
+                마지막 업데이트: 2025년 1월 | 
+                <a href="https://github.com/username/battery-carry-on" target="_blank">GitHub</a>
+            </p>
+            <p class="disclaimer">
+                본 정보는 참고용이며, 실제 탑승 시 해당 항공사의 최신 규정을 확인하시기 바랍니다.
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
