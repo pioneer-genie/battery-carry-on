@@ -7,7 +7,7 @@
     "capacity_wh": 37,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "대부분 항공사/국가에서 허용. 한국: 좌석 위 선반 보관 금지(2025.3~)",
+    "notes": "한국: 좌석 위 선반 보관 금지(2025.3~)",
     "category": "일반"
   },
   {
@@ -18,7 +18,7 @@
     "capacity_wh": 74.37,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "100Wh 이하로 기내반입 가능. 개별 포장 필수",
+    "notes": "표준 용량",
     "category": "일반"
   },
   {
@@ -62,7 +62,7 @@
     "capacity_wh": 37,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "삼성 정품. 무선충전 기능 포함",
+    "notes": "표준 용량",
     "category": "일반"
   },
   {
@@ -95,7 +95,7 @@
     "capacity_wh": 103.18,
     "carry_on_status": "conditional",
     "max_quantity": 2,
-    "notes": "USB-C PD 지원. 항공사 승인 필요한 범위",
+    "notes": "100-160Wh 범위. 항공사 승인 필수. 스티커 부착 의무",
     "category": "대용량"
   },
   {
@@ -106,7 +106,7 @@
     "capacity_wh": 92.16,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "AC 콘센트 지원. 100Wh 이하로 기내반입 가능",
+    "notes": "100Wh 이하로 기내반입 가능. 특수 기능 제품",
     "category": "특수"
   },
   {
@@ -139,7 +139,7 @@
     "capacity_wh": 74,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "고속충전 지원. 100Wh 이하로 기내반입 가능",
+    "notes": "표준 용량",
     "category": "일반"
   },
   {
@@ -150,7 +150,7 @@
     "capacity_wh": 92.5,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "100W 고속충전. 100Wh 이하로 문제없음",
+    "notes": "표준 용량",
     "category": "일반"
   },
   {
@@ -161,7 +161,7 @@
     "capacity_wh": 37,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "Apple 인증 제품. MagSafe 호환",
+    "notes": "Apple 인증 제품",
     "category": "일반"
   },
   {
@@ -172,7 +172,7 @@
     "capacity_wh": 37,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "초소형 디자인. 크레딧카드 크기",
+    "notes": "표준 용량",
     "category": "일반"
   },
   {
@@ -183,7 +183,7 @@
     "capacity_wh": 99.9,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "100Wh 바로 아래 용량. MacBook 충전 가능",
+    "notes": "100Wh 바로 아래 용량. 정확한 Wh 표기 필수",
     "category": "일반"
   },
   {
@@ -205,7 +205,7 @@
     "capacity_wh": 37,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "탄소섬유 외관. 초경량 디자인",
+    "notes": "표준 용량",
     "category": "일반"
   },
   {
@@ -216,7 +216,7 @@
     "capacity_wh": 74,
     "carry_on_status": "allowed",
     "max_quantity": 5,
-    "notes": "Qi 무선충전 지원. 100Wh 이하",
+    "notes": "표준 용량",
     "category": "일반"
   }
 ]
