@@ -43,7 +43,7 @@
 2. 파일 업로드
 3. Settings > Pages에서 Source를 "Deploy from a branch" 선택
 4. Branch를 "main" 선택
-5. 몇 분 후 `https://username.github.io/repository-name`에서 접속 가능
+5. 몇 분 후 `https://pioneer-genie.github.io/battery-carry-on`에서 접속 가능
 
 ### 커스텀 도메인 (선택사항)
 
@@ -72,7 +72,7 @@ battery-carry-on/
 
 ```bash
 # 저장소 클론
-git clone https://github.com/username/battery-carry-on.git
+git clone https://github.com/pioneer-genie/battery-carry-on.git
 
 # 로컬 서버 실행 (Python 3)
 cd battery-carry-on
@@ -127,7 +127,7 @@ python -m http.server 8000
 
 ## 📞 문의
 
-프로젝트 관련 문의사항이 있으시면 [Issues](https://github.com/username/battery-carry-on/issues)를 통해 연락해 주세요.
+프로젝트 관련 문의사항이 있으시면 [Issues](https://github.com/pioneer-genie/battery-carry-on/issues)를 통해 연락해 주세요.
 
 ---
 
